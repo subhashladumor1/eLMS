@@ -358,13 +358,13 @@ width:204px;
 #sidenav a.activesub:link,#sidenav a.activesub:visited {background-color:#ddd;color:#000;}
 #sidenav a.activesub:hover,#sidenav a.activesub:active {background-color:#ccc;color:#000;}
 #leftmenuinner {
-position:fixed;
-top:0;
-padding-top:118px;
-padding-bottom:0;    
-height:100%;
-width:220px;
-background-color:transparent;
+  position: fixed;
+  top: -70px;
+  padding-top: 118px;
+  padding-bottom: 0;
+  height: 100%;
+  width: 220px;
+  background-color: transparent;
 }
 #leftmenuinnerinner {
 height:100%;
@@ -504,7 +504,7 @@ box-sizing:content-box; line-height:normal;}
 .login {top:2px;}
 #sidenav {width:260px;box-shadow:0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);}
 #sidenav h2 {font-size:26px;width:100%;}
-#sidenav a {padding:3px 2px 3px 24px;font-size:17px}
+#sidenav a {padding:10px 2px 3px 24px;font-size:17px}
 #leftmenuinner {overflow:auto;-webkit-overflow-scrolling:touch;height:100%;position:relative;width:auto;padding-top:0;background-color:#f1f1f1;}
 #leftmenuinnerinner {overflow-y:scroll}
 .bottomad {float:none;text-align:center}
@@ -1109,6 +1109,7 @@ hr {
   text-align:center;
   margin-left:-16px;
   margin-right:-16px;
+  display: none;
 }
 
 .adtext {
